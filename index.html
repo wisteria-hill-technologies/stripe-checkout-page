@@ -23,7 +23,7 @@
         <div id="error-message"></div>
 
         <br />
-        <a href="https://github.com/nfabacus/stripe-checkout-page">Link to github repository.</a>
+        <a href="https://github.com/nfabacus/stripe-checkout-page">Link to github repository</a>
 
         <script>
           var stripe = Stripe('pk_test_2aTYM95z89mk47yuj78Es5sE');
@@ -39,7 +39,7 @@
               // URL *100%* of the time, it's possible that they could e.g. close the
               // tab between form submission and the redirect.
               successUrl: 'https://nfabacus.github.io/stripe-checkout-page/success',
-              cancelUrl: 'https://nfabacus.github.io/stripe-checkout-page/canceled',
+              cancelUrl: 'https://nfabacus.github.io/stripe-checkout-page/cancelled',
             })
               .then(function (result) {
                 if (result.error) {
